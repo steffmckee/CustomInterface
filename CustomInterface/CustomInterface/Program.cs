@@ -10,6 +10,12 @@ namespace CustomInterface
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("***** Fun with Interfaces *****\n");
+
+            Hexagon hex = new Hexagon();
+            Console.WriteLine("Points: {0}", hex.Points);
+
+            Console.ReadLine();
         }
     }
 }
